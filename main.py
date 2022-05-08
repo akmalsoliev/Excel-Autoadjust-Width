@@ -4,7 +4,7 @@ from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 from openpyxl.utils import get_column_letter
 
 
-def main(path, target_excel:str, padding:int=0):
+def excel_autowidth(path, target_excel:str, padding:int=0):
     """
     This is a minifunction that can be called independantly to auto-adjust width size of 
     multi-sheet Excel file. 
